@@ -1,5 +1,5 @@
 const express = require("express");
-const colores = require("colors");
+
 const path = require("path");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
@@ -10,6 +10,7 @@ const uri = "mongodb+srv://cisco:123@loginmongo-r1ixp.mongodb.net/PruebaLogin?re
 
 mongoose
     .connect(uri, {
+        
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
