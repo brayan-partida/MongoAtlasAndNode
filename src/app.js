@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 const body_parser = require('body-parser')
 const app = express();
 //conexion de la base de datos ========================
-const uri = "mongodb+srv://cisco:123@loginmongo-r1ixp.mongodb.net/PruebaLogin?retryWrites=true&w=majority"
-
+const uri = "link"
+//
 mongoose
     .connect(uri, {
         
